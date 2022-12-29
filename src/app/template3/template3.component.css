@@ -1,0 +1,136 @@
+* {
+  color: #515151;
+  font-family: 'Quicksand', 'Arial', sans-serif;
+  font-size: 12pt;
+}
+
+body {
+  background: url('http://www.public.asu.edu/~cjumper/Images/seigaiha.png');
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Vidaloka', cursive;
+  font-weight: normal;
+  font-size: 5em;
+  line-height: 1.2em;
+  color: #b16908;
+  margin-bottom: 50px;
+}
+
+.secondary {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: normal;
+  color: #cccdce;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.container {
+  height: 100%;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.address {
+  width: 370px;
+  height: 105px;
+  background-color: #ffffff;
+  border: 2px #dddddd solid;
+  border-radius: 25px;
+  text-align: center;
+  font-size: .8em;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.address dt, dd, dl {
+  display: inline;
+  margin: 0 auto;
+}
+
+.small {
+  font-size: .9em;
+}
+
+.bigger {
+  font-size: 1.4em;
+}
+
+footer {
+  padding-top: 5px;
+  height: 20px;
+  color: #a3620a;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffffff;
+  border-top: 0px #dddddd solid;
+  border-bottom: 0px #dddddd solid;
+
+}
+.download{
+  text-align: center;
+}
+a {
+  color: #b07f3d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ribbon {
+ font-size: 16px !important;
+
+ width: 50%;
+    
+ position: relative;
+ background: #ffffff;
+ color: #000000;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #d3d3d3;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #9a9a9b transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}

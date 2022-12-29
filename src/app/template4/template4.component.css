@@ -1,0 +1,15 @@
+
+     
+	body,h1,h2{font-family: "Raleway", sans-serif}
+	body, html {height: 100%}
+	p {line-height: 2}
+	.bgimg, .bgimg2 {
+		min-height: 100%;
+		background-position: center;
+		background-size: cover;
+	}
+	.bgimg {background-image: url("https://ritzcarlton-h.assetsadobe.com/is/image/content/dam/the-ritz-carlton/hotels/asia-pacific/singapore/singapore/new-images/05_KLK%20Photography_Ritz%20Carlton%202016.png?$XlargeViewport100pct$ ")}
+	.bgimg2 {background-image: url("https://static.pexels.com/photos/256737/pexels-photo-256737.jpeg ")}
+	.download{
+		text-align: center;
+	  }

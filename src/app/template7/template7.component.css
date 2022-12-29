@@ -1,0 +1,32 @@
+
+
+body
+{max-width: 500px;
+    margin: auto; 
+     text-align: center;
+
+      font-family: sans-serif;
+ 
+        text-transform: capitalize;
+
+}
+
+.download{
+  text-align: center;
+}
+
+.card{
+ background: white;
+ padding: 50px;
+ border-radius:20px;
+ box-shadow:3px 3px 5px black; 
+ margin: 20px;
+ border-bottom:solid lightblue 10px;
+}
+
+h1{font-family: 'Great Vibes';
+}
+
+img{ width: 120px; margin: 40px;}
+
+strong#restaurante{ color:salmon;}

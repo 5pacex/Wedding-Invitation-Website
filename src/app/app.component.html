@@ -1,0 +1,70 @@
+  
+
+<title>Online Wedding Card Application</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<header class="header7" id="header7">
+
+  <nav role="navigation" class="navbar navbar-default">
+      <div class="container">
+      <div class="navbar-header">
+          <a href="#" class="navbar-brand brand"><i class="fa fa-codepen"></i><span>Wedding Card Application</span></a>
+      </div>
+
+      <div id="navbar-collapse-02" class="collapse navbar-collapse">		      
+          <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/templates" >Templates</a></li>
+              
+          </ul>
+      </div>
+      </div>
+  </nav>
+ <router-outlet ></router-outlet>
+  <div class="intro center-content" *ngIf="hideForm">
+     <div class="container">
+
+          <div class="row">
+              <div class="col-md-5">
+                  <form class="login-reg" [formGroup]='singupForm'>
+                      <div class="row">
+                          <div class="col-sm-12">
+                              <h3 class="pull-stop">Create Your Online Wedding Card</h3>
+                          </div>
+                          <div class="col-sm-12">
+                              <div class="form-group">
+                                  <input type="text" class="form-control input-lg" #groom placeholder="Grooms Name" required>
+                              </div>
+                          </div>
+                          <div class="col-sm-12">
+                              <div class="form-group">
+                                  <input type="text" class="form-control input-lg" #bride placeholder="Brides Name" required>
+                              </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                                <input type="date" class="form-control input-lg" #weddate placeholder="Wedding Date"required>
+                            </div>
+                        </div>
+                          <div class="col-sm-12">
+                              <div class="form-group">
+                                  <input type="text" class="form-control input-lg" #venue placeholder="Venue Details"required>
+                              </div>
+                              
+                              <button type="button" (click)="btnClick(groom,bride,weddate,venue)" class="btn btn-info btn-block button" routerLink ="/templates">Generate Wedding Card</button>
+                              
+                          </div>
+
+                      </div>	
+                  </form>
+              </div>
+              <div class="col-md-7">
+                  <img class="center-block" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/img-3462-1-1576693070.jpg?crop=1.00xw:0.803xh;0,0.181xh&resize=640:*" alt="#">
+              </div>
+
+          </div>
+      
+         </div>
+  </div>
+
+</header>   

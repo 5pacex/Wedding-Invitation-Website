@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.download{
+  text-align: center;
+}
+body {
+  line-height: 1.5;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  background-color: #f2e0e0;
+  overflow-x: hidden;
+}
+main {
+  background-image: url("https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+main img {
+  position: relative;
+}
+main .inner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.inner-text h1 {
+  font-size: 64px;
+  line-height: 96px;
+  font-weight: 400;
+}
+.inner-text p {
+  font-size: 26px;
+  padding-bottom: 8px;
+  font-weight: 300;
+  width: 600px;
+}
+.about,
+.wedding-details {
+  width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+.about h1,
+.wedding-details h1 {
+  font-size: 36px;
+  color: #757575;
+  font-weight: 400;
+  padding: 15px 0;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.about p {
+  padding: 2.4rem 0;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  font-style: italic;
+  text-align: left;
+}
+
+.btn-dark {
+  display: inline-block;
+  background: #000;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  -webkit-box-shadow: 1px 2px 0px 2px rgba(0, 0, 0, 0.1),
+    -1px -2px 0px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 0px 2px rgba(0, 0, 0, 0.1),
+    -1px -2px 0px 2px rgba(0, 0, 0, 0.1);
+}
+a.btn-dark {
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+}
+.btn-dark:focus,
+.btn-dark:hover {
+  background: #cccccc;
+  color: #000;
+}
+.invite-section {
+  background-image: url("https://images.unsplash.com/reserve/xd45Y326SvKzSR3Nanc8_MRJ_8125-1.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.invite-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 150px;
+  left: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.invite-body h1 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.invite-body p {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.wedding-details {
+  background: #f2e0e0;
+}
+.wedding-details .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30vh;
+  text-transform: capitalize;
+  letter-spacing: 1.4px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.details h3 {
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.details p {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.greeting {
+  background-color: #ffdddd;
+  text-align: center;
+  padding: 90px 0;
+  text-transform: uppercase;
+}
+.greeting h1 {
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+.greeting p {
+  padding: 10px 0;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+.btn-light {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+a.btn-light {
+  background-color: #f44336;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  font-weight: 300;
+}
+.btn-light:focus,
+.btn-light:hover {
+  background: #cccccc;
+  color: #000;
+}
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  z-index: 1;
+}
+footer h1 {
+  font-size: 30px;
+  font-weight: 200;
+}
+footer a {
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding-left: 10px;
+  margin-left: 10px;
+  color: #fff;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+header {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.8;
+  bottom: 0;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 10vh;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+
+/*madia query*/
+@media (max-width: 1024px) {
+  .img-box {
+    width: 100%;
+  }
+}
